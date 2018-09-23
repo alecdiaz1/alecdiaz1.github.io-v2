@@ -16,11 +16,16 @@
 
 .intro-content #hai-link {
     color: palevioletred;
+    transition: 0.2s;
+}
+
+.intro-content #hai-link:hover {
+    color: #bf6280;
 }
 
 .intro-content #name {
     margin-top: 0;
-    font-size: 4em;
+    font-size: 6em;
 }
 
 .intro-content #hello {
@@ -31,13 +36,81 @@
     color: lightskyblue;
 }
 
+.intro-content h2 {
+    font-size: 2em;
+}
+
 .work {
     width: 100%;
-    height: 2000px;
+    /*height: 2000px;*/
     color: black;
     background: white;
+    padding-top: 2.5rem;
 }
 
 .work-content {
     padding: 1rem;
+}
+
+.work-content a {
+    color: black
+}
+
+.work-content .card {
+    box-shadow: 0 0 10px 2px rgba(197, 197, 197, 0.5);
+    box-sizing: border-box;
+    transition: all 0.3s;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.work-content .card:hover {
+    transform: translateY(-20px);
+    background-position: center 100%;
+    background-size: 105%;
+    box-shadow: 0 0 20px 0 rgba(119, 119, 119, 0.6);
+}
+
+.work-content h3, p {
+    margin: 0 0;
+}
+
+.work-content .card-footer {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.work-content .card-footer p {
+    color: dimgray;
+}
+
+.case {
+    color: black;
+    width: 100%;
+    background-color: white;
+}
+
+.header img {
+    background-image: url('/assets/Inventory.jpg');
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 0 20px 0 rgba(119, 119, 119, 0.6);
+}
+
+.header-content {
+    margin-top: 5em;
+}
+
+.case-content p {
+    margin-left: .6em;
+}
+
+footer {
+    background: dimgray;
+    margin-top: 4em;
+}
+
+footer p {
+    margin-left: .6em;
 }

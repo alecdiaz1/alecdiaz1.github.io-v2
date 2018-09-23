@@ -11,8 +11,8 @@
 /* Core module CSS variable definitions */
 :root {
   --fore-color: #fdfdfd;
-  --secondary-fore-color: #f0f0f0;
-  --back-color: #111;
+  --secondary-fore-color: #737373;
+  --back-color: #ffffff;
   --secondary-back-color: #222;
   --blockquote-color: #f57c00;
   --pre-color: #1565c0;
@@ -228,7 +228,7 @@ a:visited {
 }
 
 a:hover, a:focus {
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
 
 /*
@@ -640,8 +640,8 @@ a:hover, a:focus {
 
 /* Card component CSS variable definitions */
 :root {
-  --card-back-color: #111;
-  --card-fore-color: #fdfdfd;
+  --card-back-color: #ffffff;
+  --card-fore-color: #000000;
   --card-border-color: #aaa;
 }
 

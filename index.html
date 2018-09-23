@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/mini-dark.css">
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Alec Diaz</title>
 </head>
 <body>
@@ -16,7 +17,7 @@
     <div class="row">
         <div class="col-sm-12 col-md-offset-1 col-md-8">
             <h2 id="hello">Hi, I'm</h2>
-        <h1 id="name">Alec Diaz</h1>
+            <h1 id="name">Alec Diaz</h1>
             <h2>HCI student at UC Irvine</h2>
             <h2>research assistant at the <a id="hai-link" href="http://hai.ics.uci.edu/">HAI lab</a></h2>
         </div>
@@ -27,9 +28,26 @@
 <div class="work">
     <div class="work-content">
         <div class="row">
-            <div class="col-sm-12 col-md-offset-1 col-md-8">
-                <div class="card warning fluid">
-                    Hi
+            <div class="col-sm-12 col-md-offset-1 col-md-5">
+                <div class="card fluid">
+                    <a href="nms.html">
+                    <img src="assets/Inventory.jpg">
+                        <div class="card-footer">
+                            <h3>No Man's Sky Redesign</h3>
+                            <p>UX/UI Design</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-5">
+                <div class="card fluid">
+                    <a href="#">
+                    <img src="assets/shere-khan.jpg">
+                        <div class="card-footer">
+                            <h3>Hyperion Industries</h3>
+                            <p>Branding | Graphic Design | Photography </p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -37,9 +55,19 @@
 </div>
 
 </div>
+
 <footer>
-    <p>hi</p>
+    <div class="row">
+            <p>Made with <3</p>
+        </div>
 </footer>
+
+<script>
+    ScrollReveal({ distance: '60px' });
+    ScrollReveal().reveal('.intro-content', { origin: 'bottom' });
+    ScrollReveal().reveal('.work-content', { origin: 'bottom' });
+    ScrollReveal().reveal('.work-content', { delay: 250 });
+</script>
 
 </body>
 </html>

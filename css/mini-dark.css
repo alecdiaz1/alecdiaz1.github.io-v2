@@ -22,8 +22,8 @@
   --universal-margin: 0.5rem;
   --universal-padding: 0.0rem;
   --universal-border-radius: 0.125rem;
-  --a-link-color: #0277bd;
-  --a-visited-color: #01579b;
+  --a-link-color: white;
+  --a-visited-color: white;
 }
 
 html {
